@@ -1,0 +1,50 @@
+<div class="container-fluid footer" id="footer">
+
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-1">
+      <h3>Contacts</h3>
+      <span class="glyphicon glyphicon-earphone"></span> (859) 254-3319<br/>
+      <span class="glyphicon glyphicon-envelope"></span> info@lexingtonfriends.org<br/>
+      <br/>
+      <i class="fa fa-facebook-official" aria-hidden="true"></i> <a href="https://www.facebook.com/groups/lexingtonfriendsmeeting/">Facebook</a><br/>
+      <br/>
+      <span class="glyphicon glyphicon-map-marker"></span> 
+      <a href="https://goo.gl/maps/DKSrxP1An472">Map &amp; Directions</a><br/>
+    </div>
+
+
+    <div class="col-sm-4">
+      <h3>Worship &amp Events</h3>
+      <strong>First Hour Discussion</strong> Sundays, 9:15am<br/>
+      <strong>Meeting for Worship</strong> Sundays, 10:30am<br/>
+      <strong>Meeting for Business</strong> 2nd Sundays, 12:30pm<br/>
+      <strong>Sandwich Sunday</strong> 4th Sundays, 12:00pm<br/>
+      <br/>
+      <a href="/calendar">Full Calendar</a>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Meeting House</h3>
+      649 Price Ave <br/>
+      Lexington, KY 40508 <br/>
+      <br/>
+      <strong>Mailing Address</strong><br/>
+      PO Box 24411 <br/>
+      Lexington, KY 40524 <br/>
+      <br/>
+    </div>
+
+  </div>
+
+</div>
+<div id="site-updated" class="col-12-lg pull-right hidden-xs">
+    <small><em>Site Updated: {{ .Now.Local.Format "2006-01-02 15:04:05 MST" }}</em></small>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/lfm.js"></script>
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

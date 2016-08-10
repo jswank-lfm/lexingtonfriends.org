@@ -1,0 +1,21 @@
+  <h1>Calendar for 
+      {{ .Scratch.Get "month" | printf "%s-01" | dateFormat "January 2006" }}
+    </h1>
+
+  {{ with $calendar := .Scratch.Get "month" | index $.Site.Data.calendar }}
+  <dl>
+    {{ range $calendar }}
+    <dt>{{ .day  }}</dt>
+      {{ range .events }}
+      <dd><span class="time">{{ .start }}</span>{{ .summary }}{{ if .location }} ({{ .location }}){{ end }}{{if .description }}. {{ .description }}{{ end }}</dd>
+      {{ end }}
+    {{ end }}
+  </dl> 
+  {{ end }}
+  </div>
+
+  This information is also available as a <a href="https://goo.gl/6WtyLq">Google Calendar</a>.
+
+</div>
+
+{{ partial "footer.html" . }}

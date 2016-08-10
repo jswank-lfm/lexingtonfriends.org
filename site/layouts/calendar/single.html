@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+  <div id="calendar">
+    {{ .Scratch.Add "month" .Params.month }}
+    {{ partial "calendar-content.html" . }}

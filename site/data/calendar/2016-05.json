@@ -1,0 +1,138 @@
+[
+  {
+    "day": "Sunday, May 1", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:00 PM", 
+        "description": "", 
+        "location": "Library", 
+        "summary": "Outreach Committee Meeting"
+      }
+    ]
+  }, 
+  {
+    "day": "Friday, May 6", 
+    "events": [
+      {
+        "start": "6:45 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Potluck & Discussion"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, May 8", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:30 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting For Worship With Attention to Business"
+      }
+    ]
+  }, 
+  {
+    "day": "Saturday, May 14", 
+    "events": [
+      {
+        "start": "10:00 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Knitting Group"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, May 15", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }
+    ]
+  }, 
+  {
+    "day": "Friday, May 20", 
+    "events": [
+      {
+        "start": "6:45 PM", 
+        "description": "", 
+        "location": "Fellowship Room", 
+        "summary": "Potluck & Discussion"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, May 22", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:00 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Sandwich Sunday"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, May 29", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }
+    ]
+  }
+]

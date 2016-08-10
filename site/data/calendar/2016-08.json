@@ -1,0 +1,99 @@
+[
+  {
+    "day": "Sunday, August 7", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:00 PM", 
+        "description": "", 
+        "location": "Library", 
+        "summary": "Outreach Committee Meeting"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, August 14", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:30 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting For Worship With Attention to Business"
+      }
+    ]
+  }, 
+  {
+    "day": "Friday, August 19", 
+    "events": [
+      {
+        "start": "6:45 PM", 
+        "description": "", 
+        "location": "Fellowship Room", 
+        "summary": "Potluck & Discussion"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, August 21", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, August 28", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:00 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Sandwich Sunday"
+      }
+    ]
+  }
+]

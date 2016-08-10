@@ -1,0 +1,28 @@
+baseurl: "https://lexingtonfriends.org/"
+languageCode: "en-us"
+title: "Lexington Friends Meeting (Quaker)"
+canonifyurls: false
+googleAnalytics: UA-76746700-1
+
+menu:
+  main:
+    - Name: "About Us"
+      Identifier: "about"
+      Weight: 40
+    - Name: "Activities"
+      Identifier: "activities"
+      Weight: 60
+    - Name: "Calendar"
+      Identifier: "calendar"
+      Parent: "activities"
+      Weight: 10
+      URL: "/calendar"
+    - Name: "Announcements"
+      Identifier: "announcements"
+      Parent: "activities"
+      Weight: 20
+      URL: "/announcements"
+
+params:
+  metaDescription: "Lexington Friends Meeting (Quaker), Religious Society of Friends, is associated part of the Ohio Yearly Meeting and Friends General Conference and located in Lexinton Kentucky."
+  metaKeywords: "Friends, Monthly Meeting, Quaker, Religious Society of Friends, Ohio Valley Yearly Meeting, Lexington, Kentucky"

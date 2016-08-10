@@ -1,0 +1,81 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-8"> 
+      <h1>Contact Us</h1>
+      <form method="post" action="#" id="contactForm" role="form">
+
+      <div class="form-group">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Your Name"/>
+        <span class="help-block" style="display: none;">Please enter your name.</span>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" />
+        <span class="help-block" style="display: none;">Please enter a valid email address.</span>
+      </div>
+
+      <div class="form-group">
+        <input name="phone" type="tel" class="form-control optional" id="phone" size="30" value="" placeholder="Phone number" 
+        title="Please enter a valid phone number">
+        <span class="help-block" style="display: none;">Please enter a valid telephone number.</span>
+      </div>
+
+      <div class="form-group">
+        <input name="subject" type="text" class="form-control optional" id="subject" value="" placeholder="Subject" 
+        title="Please enter a subject">
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" class="form-control" id="message" cols="3" rows="4"
+          placeholder="Your Message..."></textarea>
+        <span class="help-block" style="display: none;">Please enter a message.</span>
+      </div>
+
+      <div id="contactResult" class="result"></div>
+    
+      <div class="form-group">
+        <div class="col-sm-6" style="padding-bottom:10px;">
+        <span class="g-recaptcha" data-sitekey="6Lcqxx0TAAAAALNNYHt6fdPPRtIWkBz_U74fRk2l"></span>
+        </div>
+        <div class="col-sm-1 col-sm-push-4">
+          <button name="submit" type="submit" class="btn btn-primary btn-responsive" id="messageSubmit">Submit</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+      </div>
+    
+      </form>
+
+    </div>
+
+  <div class="col-sm-4 well hidden-xs">
+ 
+    <strong>Meeting House</strong><br/>
+    649 Price Ave <br/>
+    Lexington, KY 40508 <br/>
+    <br/>
+    <a href="/map"><strong>Map &amp; Directions</strong></a><br/>
+    <br/>
+    <span class="glyphicon glyphicon-earphone"></span> (859) 254-3319<br/>
+    <span class="glyphicon glyphicon-envelope"></span> info@lexingtonfriends.org<br/>
+    <i class="fa fa-facebook-official" aria-hidden="true"></i> <a href="https://www.facebook.com/groups/lexingtonfriendsmeeting/">Facebook</a><br/>
+    <br/>
+    <strong>Clerk:</strong> Peter Hardy<br/>
+    <a href="mailto:clerk@lexingtonfriends.org">clerk@lexingtonfriends.org</a><br/>
+    <br/>
+    <strong>Mailing Address</strong><br/>
+    PO Box 24411 <br/>
+    Lexington, KY 40524
+    
+  </div>
+
+  </div>
+
+</div>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+{{ partial "footer.html" . }}

@@ -1,0 +1,10 @@
+{
+  "_aerobatic": {
+    "build": {
+      "engine": "hugo"
+    },
+    "webpage": {
+      "canonicalRedirects": false
+    }
+	}
+}
