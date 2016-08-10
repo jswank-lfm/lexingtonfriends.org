@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - install-packages:
-        packages: python@2.7.3 virtualenv@1.11.5
+        packages: python virtualenv
 
     - pip-install:
         requirements_file: bin/requirements.txt
