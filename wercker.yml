@@ -1,6 +1,16 @@
 box: debian
 build:
   steps:
+    - pip-install:
+        requirements_file: bin/requirements.txt
+
+    - script:
+        name: create JSON for calendar
+        code: |
+          bin/ics2json > site/data/calendar/$(date +%Y-%m).json
+          bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
+
     - arjen/hugo-build:
         version: "0.15"
         basedir: site
+

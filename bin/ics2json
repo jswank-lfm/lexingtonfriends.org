@@ -1,0 +1,141 @@
+#!/usr/bin/env python2
+
+# ics2json - Convert an ICS calendar file to JSON
+#
+# usage: ics2html [-s <start date>] [-e <end date>] [-n <title for calendar>] <url> <url> ...
+#
+
+from datetime import datetime, timedelta
+from calendar import monthrange
+from dateutil.tz import *
+from dateutil.rrule import *
+
+import requests
+
+from icalendar import Calendar
+
+from operator import itemgetter
+
+import json
+
+import argparse
+
+url = 'https://calendar.google.com/calendar/ical/tnf09favg9g38pk5r40d0ajg1s%40group.calendar.google.com/public/basic.ics'
+
+tz = tzstr('America/New_York')
+
+def createEvent(comp):
+    event = {}
+
+    for f in ['dtstamp','dtstart','dtend']:
+        event[f] = comp.get(f).dt
+#        event[f] = comp.get(f).dt.astimezone(tz)
+#        try:
+#            event[f] = comp.get(f).dt.astimezone(tz)
+#        except AttributeError:
+#            next
+
+    for f in ['summary','location','description']:
+        if f:
+            event[f] = comp.get(f)
+
+    return event
+   
+# build list of events that haven't happened (have rrule OR dtstart > start and dtstart < end)
+def getEvents(cal,start,end):
+    events = {}
+    for c in cal.walk():
+        if c.name == "VEVENT":
+            event = createEvent(c)
+            if c.get('rrule'):
+                rr = rrulestr( c.get('rrule').to_ical(),dtstart=event['dtstart'] )
+
+                # create a list of days which the event should be excluded
+                exclude_dates=[]
+
+                if c.get('exdate'):
+                    if type(c.get('exdate')) == type(list()):
+                            for d in c.get('exdate'):
+                                for e in d.dts:
+                                    exclude_dates.append(e.dt.date())
+                    else:
+                        for e in c.get('exdate').dts:
+                            exclude_dates.append(e.dt.date())
+
+                # all datetime's between start & end
+                dts = rr.between(start,end,inc=True)
+                if len(dts):
+                    for dt in dts:
+                        if dt.date() in exclude_dates:
+                            continue
+                        if dt.date() in events:
+                            events[dt.date()].append(event)
+                        else:
+                            events[dt.date()] = [event]
+            elif "dtstart" not in event:
+                continue
+            elif event['dtstart'] > start and event['dtstart'] < end:
+                if event['dtstart'].date() in events:
+                    events[event['dtstart'].date()].append(event)
+                else:
+                    events[event['dtstart'].date()] = [event]
+
+
+    return events
+
+def main():
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--start','-s')
+    parser.add_argument('--days','-d')
+    args = parser.parse_args()
+    # set defaults and read command line args
+    # - start - default to first day of the month
+    # - end - default to the last day of the month
+    # - url to retrieve ICS files
+    if not args.start:
+        now = datetime.now(tz)
+        start = datetime(now.year, now.month, 1, tzinfo=tz)
+    else:
+        start = datetime.strptime(args.start,'%Y-%m-%d')
+        start = start.replace(tzinfo=tz)
+
+    if not args.days:
+        end = start + timedelta(days=monthrange(start.year,start.month)[1])
+    else:
+        end = start + timedelta(days=int(args.days))
+        # end = start.replace(tzinfo=tz)
+
+    
+    cal = Calendar.from_ical(requests.get(url).text)
+
+    events = getEvents(cal,start,end)
+
+    # sort events for each day
+    for k, v in events.iteritems():
+        events[k] = sorted(v,key=itemgetter('dtstart'))
+
+    # create sorted list of tuples: [ (event_dt, [event,event,...] ), (), ... ]
+    events_list = sorted(events.items())
+
+    export_events = []
+    for d, events in events_list:
+        day={}
+        day['day'] = d.strftime("%A, %B %-d")
+        day['events'] = []
+        for e in events:
+                export_event={}
+                export_event['start']=e['dtstart'].strftime("%-I:%M %p")
+                export_event['summary']=e['summary']
+                export_event['location']=e['location']
+                export_event['description']=e['description']
+                day['events'].append(export_event)
+        export_events.append(day)
+
+    print json.dumps(export_events, indent=2)
+
+
+if __name__ == "__main__":
+    main()
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
