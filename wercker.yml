@@ -1,6 +1,9 @@
 box: debian
 build:
   steps:
+    - install-packages:
+        packages: python2
+
     - pip-install:
         requirements_file: bin/requirements.txt
 
