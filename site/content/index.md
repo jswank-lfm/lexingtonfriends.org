@@ -16,6 +16,6 @@ which leads us to be welcoming of diversity and inclusive of all people.
 
 Worship begins at 10:30am on Sunday preceded by singing from 10:15 to 10:30.
 Child and infant care is available during both and worship and the morning
-topical dicsussion (<a href="/announcements/#first-hour">First Hour</a>).
+topical dicsussion (<a href="/announcements/">First Hour</a>).
 After about 15 minutes in worship with the adults, children withdraw to
 participate religious education activities with adult volunteers.
