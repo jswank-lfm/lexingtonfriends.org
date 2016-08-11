@@ -16,6 +16,13 @@ build:
     - arjen/hugo-build:
         version: "0.15"
         basedir: site
+
+    - script:
+        name: create archive
+        cwd: site/public
+        code: |
+          zip -r archive.zip .
+          
 deploy:
   steps:
     - s3sync:
