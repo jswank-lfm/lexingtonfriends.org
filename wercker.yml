@@ -1,8 +1,8 @@
-box: debian
+box: python:2.7
 build:
   steps:
-    - install-packages:
-        packages: python virtualenv python-pip
+    #    - install-packages:
+    #    packages: python virtualenv python-pip
 
     - pip-install:
         requirements_file: bin/requirements.txt
@@ -19,9 +19,11 @@ build:
 deploy:
   steps:
     - s3sync:
-      source_dir: site/public/
-      delete-removed: true
-      bucket-url: $AWS_BUCKET_URL
-      key-id: $AWS_ACCESS_KEY_ID
-      key-secret: $AWS_SECRET_ACCESS_KEY
-
+        source_dir: site/public/
+        delete-removed: true
+        bucket-url: $AWS_BUCKET_URL
+        key-id: $AWS_ACCESS_KEY_ID
+        key-secret: $AWS_SECRET_ACCESS_KEY
+#    - script:
+#        name: purge CDN cache
+#        code: bin/purge-cdn.sh
