@@ -1,8 +1,8 @@
 box: python:2.7
 build:
   steps:
-    #    - install-packages:
-    #    packages: python virtualenv python-pip
+    - install-packages:
+        packages: zip
 
     - pip-install:
         requirements_file: bin/requirements.txt
@@ -21,7 +21,7 @@ build:
         name: create archive
         cwd: site/public
         code: |
-          tar czf archive.tgz .
+          zip -r archive.zip .
           
 deploy:
   steps:
