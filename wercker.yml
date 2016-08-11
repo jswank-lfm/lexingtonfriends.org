@@ -24,6 +24,6 @@ deploy:
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
-#    - script:
-#        name: purge CDN cache
-#        code: bin/purge-cdn.sh
+    - script:
+        name: purge CDN cache
+        code: bin/purge-cdn.sh
