@@ -21,7 +21,7 @@ build:
         name: create archive
         cwd: site/public
         code: |
-          zip -r archive.zip .
+          zip -r lfm-archive.zip .
           
 deploy:
   steps:
