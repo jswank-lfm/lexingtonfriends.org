@@ -21,7 +21,7 @@ build:
         name: create archive
         cwd: site/public
         code: |
-          zip -r archive.zip .
+          tar czf archive.tgz .
           
 deploy:
   steps:
