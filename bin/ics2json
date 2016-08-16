@@ -14,7 +14,7 @@ import requests
 
 from icalendar import Calendar
 
-from operator import itemgetter
+#import operator
 
 import json
 
@@ -22,13 +22,17 @@ import argparse
 
 url = 'https://calendar.google.com/calendar/ical/tnf09favg9g38pk5r40d0ajg1s%40group.calendar.google.com/public/basic.ics'
 
-tz = tzstr('America/New_York')
+tz = gettz('America/New_York')
 
 def createEvent(comp):
     event = {}
 
     for f in ['dtstamp','dtstart','dtend']:
-        event[f] = comp.get(f).dt
+        event[f] = comp.get(f).dt.astimezone(tz)
+#        print event[f]
+#        print event[f].tzname()
+#        print event[f].astimezone(tz)
+#        print event[f].replace(tzinfo=tz)
 #        event[f] = comp.get(f).dt.astimezone(tz)
 #        try:
 #            event[f] = comp.get(f).dt.astimezone(tz)
@@ -113,7 +117,9 @@ def main():
 
     # sort events for each day
     for k, v in events.iteritems():
-        events[k] = sorted(v,key=itemgetter('dtstart'))
+        # this should totally work, but for some reason datetime.datetime comparisons are off
+        # events[k] = sorted(v,key=operator.itemgetter('dtstart'))
+        events[k] = sorted(v,key=lambda e: e['dtstart'].time())
 
     # create sorted list of tuples: [ (event_dt, [event,event,...] ), (), ... ]
     events_list = sorted(events.items())
