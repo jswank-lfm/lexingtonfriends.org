@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   var form_action="https://lfm.webscript.io/contactform"
 
+  add_a_names()
+
   $("#messageSubmit").click(function() {
     //clear any errors
     contactForm.clearErrors();
@@ -84,7 +86,24 @@ var contactForm = {
     $input.parent('.form-group').addClass('has-error');
   },
   addAjaxMessage: function(msg, isError) {
-    console.log('addAjaxMessage()', msg, isError);
     $("#contactResult").replaceWith('<div class="alert alert-' + (isError ? 'danger' : 'success') + '">' + $('<div/>').text(msg).html() + '</div>');
   }
+};
+
+// toc markup produced headers with an id like "name:doc_id". this function
+// prepends a <a name="name"></a> element, allowing for friendlier / permanent
+// urls to be shared.
+var add_a_names = function() {
+  $("h2").each(function(i,el){
+    var name = $(el).attr("id");
+    if (name) {
+      var idx = name.indexOf(":");
+      if (idx != -1) {
+        var a_name = name.substring(0,idx);
+        var a = document.createElement('a');
+        $(a).attr("name",a_name);
+        $(el).prepend(a);
+      }
+    }
+  });
 };
