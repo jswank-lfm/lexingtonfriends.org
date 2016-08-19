@@ -48,20 +48,29 @@ def createEvent(comp):
 # build list of events that haven't happened (have rrule OR dtstart > start and dtstart < end)
 def getEvents(cal,start,end):
     events = {}
+    recurrence_map = {}
     for c in cal.walk():
         if c.name == "VEVENT":
+            # print "EVENT"
             event = createEvent(c)
+            # create a list of days which the event should be excluded
+            exclude_dates=[]
+            if c.get('recurrence-id'):
+                date = c.get('recurrence-id').dt.date()
+                if c.get('uid') in recurrence_map:
+                    recurrence_map[c.get('uid')].append(date)
+                else:
+                    recurrence_map[c.get('uid')] = [date]
+
             if c.get('rrule'):
                 rr = rrulestr( c.get('rrule').to_ical(),dtstart=event['dtstart'] )
 
-                # create a list of days which the event should be excluded
-                exclude_dates=[]
-
                 if c.get('exdate'):
                     if type(c.get('exdate')) == type(list()):
-                            for d in c.get('exdate'):
-                                for e in d.dts:
-                                    exclude_dates.append(e.dt.date())
+                        for d in c.get('exdate'):
+                            for e in d.dts:
+                                exclude_dates.append(e.dt.date())
+
                     else:
                         for e in c.get('exdate').dts:
                             exclude_dates.append(e.dt.date())
@@ -70,6 +79,8 @@ def getEvents(cal,start,end):
                 dts = rr.between(start,end,inc=True)
                 if len(dts):
                     for dt in dts:
+                        if c.get('uid') in recurrence_map and dt.date() in recurrence_map[c.get('uid')]:
+                            continue
                         if dt.date() in exclude_dates:
                             continue
                         if dt.date() in events:
@@ -79,6 +90,8 @@ def getEvents(cal,start,end):
             elif "dtstart" not in event:
                 continue
             elif event['dtstart'] > start and event['dtstart'] < end:
+                if event['dtstart'].date() in exclude_dates:
+                    continue
                 if event['dtstart'].date() in events:
                     events[event['dtstart'].date()].append(event)
                 else:
