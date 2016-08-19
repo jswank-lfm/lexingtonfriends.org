@@ -1,58 +1,18 @@
 [
   {
-    "day": "Sunday, August 7", 
-    "events": [
-      {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "First Hour Discussion"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
-      {
-        "start": "12:00 PM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "Outreach Committee Meeting"
-      }
-    ]
-  }, 
-  {
-    "day": "Sunday, August 14", 
-    "events": [
-      {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "First Hour Discussion"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
-      {
-        "start": "12:30 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting For Worship With Attention to Business"
-      }
-    ]
-  }, 
-  {
     "day": "Friday, August 19", 
     "events": [
       {
+        "start": "6:00 PM", 
+        "description": "Saturday and Sunday event.", 
+        "location": "Quaker Hill Conference Center, Richmond, Indiana", 
+        "summary": "POSTPONED: Workshop - Quakers and Peace: How Effective Can the Peace Testimony Be in 2016?"
+      }, 
+      {
         "start": "6:45 PM", 
-        "description": "", 
-        "location": "Fellowship Room", 
-        "summary": "Potluck & Discussion"
+        "description": "https://lexingtonfriends.org/announcements/2016-08/#3rd-friday-potluck", 
+        "location": "Meetinghouse: Library", 
+        "summary": "Potluck & Discussion: Quaker Communications with one another and the world"
       }
     ]
   }, 
@@ -61,9 +21,9 @@
     "events": [
       {
         "start": "9:15 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "First Hour Discussion"
+        "description": "We will contiinue reading and discussing excerpts from \"Fields of Blood:  Religion and the History of Violence\" by Karen Armstrong.  Pamela Graber will lead us.", 
+        "location": "Meetinghouse: Library", 
+        "summary": "First Hour Discussion - Karen Armstrong on Religion & Violence"
       }, 
       {
         "start": "10:30 AM", 
@@ -79,7 +39,7 @@
       {
         "start": "9:15 AM", 
         "description": "", 
-        "location": "", 
+        "location": "Library", 
         "summary": "First Hour Discussion"
       }, 
       {
@@ -97,23 +57,12 @@
     ]
   }, 
   {
-    "day": "Friday, September 2", 
-    "events": [
-      {
-        "start": "6:45 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Potluck & Discussion"
-      }
-    ]
-  }, 
-  {
     "day": "Sunday, September 4", 
     "events": [
       {
         "start": "9:15 AM", 
         "description": "", 
-        "location": "", 
+        "location": "Library", 
         "summary": "First Hour Discussion"
       }, 
       {
@@ -136,7 +85,7 @@
       {
         "start": "9:15 AM", 
         "description": "", 
-        "location": "", 
+        "location": "Library", 
         "summary": "First Hour Discussion"
       }, 
       {
@@ -159,8 +108,54 @@
       {
         "start": "6:45 PM", 
         "description": "", 
-        "location": "Fellowship Room", 
+        "location": "Meetinghouse - Library", 
         "summary": "Potluck & Discussion"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, September 18", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "Library", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, September 25", 
+    "events": [
+      {
+        "start": "9:15 AM", 
+        "description": "", 
+        "location": "Library", 
+        "summary": "First Hour Discussion"
+      }, 
+      {
+        "start": "10:30 AM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Meeting for Worship"
+      }, 
+      {
+        "start": "12:00 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "Sandwich Sunday"
+      }, 
+      {
+        "start": "3:00 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "CROP Hunger Walk"
       }
     ]
   }

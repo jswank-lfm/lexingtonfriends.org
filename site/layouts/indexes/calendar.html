@@ -8,7 +8,7 @@
     {{ range $.Site.Data.calendar.upcoming }}
     <dt>{{ .day  }}</dt>
       {{ range .events }}
-      <dd><span class="time">{{ .start }}</span>{{ .summary }}{{ if .location }} ({{ .location }}){{ end }}{{if .description }}. {{ .description }}{{ end }}</dd>
+      <dd><span class="time">{{ .start }}</span>{{ .summary }}{{ if .location }} ({{ .location }}){{ end }}{{if .description }}. {{ .description | markdownify }}{{ end }}</dd>
       {{ end }}
     {{ end }}
   </dl> 
