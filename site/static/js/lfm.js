@@ -94,7 +94,7 @@ var contactForm = {
 // prepends a <a name="name"></a> element, allowing for friendlier / permanent
 // urls to be shared.
 var add_a_names = function() {
-  $("h2").each(function(i,el){
+  $("h1,h2").each(function(i,el){
     var name = $(el).attr("id");
     if (name) {
       var idx = name.indexOf(":");
