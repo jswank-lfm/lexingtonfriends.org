@@ -28,3 +28,5 @@ Kingdom of Heaven Assembly, San Iglesias del Rey, and Tai Chi Taoist Society
 all have regular times of using the rental spaces. Our rental availability is
 currently limited as a result: please <a href="/contact">contact</a> us to discuss
 scheduling.
+
+## [Application & Use Policy](/docs/meetinghouse-policy-app.pdf)
