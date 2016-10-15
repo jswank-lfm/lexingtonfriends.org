@@ -1,10 +1,21 @@
 [
   {
-    "day": "Sunday, August 7", 
+    "day": "Saturday, September 3", 
+    "events": [
+      {
+        "start": "8:00 AM", 
+        "description": "[Announcement](https://lexingtonfriends.org/announcements/2016-09/#quaker-work-party).\n", 
+        "location": "", 
+        "summary": "Work Party"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, September 4", 
     "events": [
       {
         "start": "9:15 AM", 
-        "description": "", 
+        "description": "See [announcement](https://lexingtonfriends.org/announcements/2016-09/#first-hour-september-4).", 
         "location": "", 
         "summary": "First Hour Discussion"
       }, 
@@ -23,13 +34,13 @@
     ]
   }, 
   {
-    "day": "Sunday, August 14", 
+    "day": "Sunday, September 11", 
     "events": [
       {
         "start": "9:15 AM", 
-        "description": "We will be reading and discussing \"Fields of Blood:  Religion and the History of Violence\" by Karen Armstrong.  Pamela Graber will lead us.", 
-        "location": "Meetinghouse: Library", 
-        "summary": "First Hour Discussion: Karen Armstrong on Religion & Violence"
+        "description": "See [announcement](https://lexingtonfriends.org/announcements/2016-09/#first-hour-september-11).", 
+        "location": "", 
+        "summary": "First Hour Discussion"
       }, 
       {
         "start": "10:30 AM", 
@@ -46,36 +57,35 @@
     ]
   }, 
   {
-    "day": "Friday, August 19", 
+    "day": "Friday, September 16", 
     "events": [
-      {
-        "start": "6:00 PM", 
-        "description": "Friday & Saturday; [more info](http://www.qhcc.org/pdf/QuakersPeace2016.pdf).", 
-        "location": "Quaker Hill Conference Center, Richmond, Indiana", 
-        "summary": "POSTPONED: Workshop - Quakers and Peace: How Effective Can the Peace Testimony Be in 2016?"
-      }, 
       {
         "start": "6:45 PM", 
         "description": "", 
-        "location": "Meetinghouse - Library", 
-        "summary": "Potluck & Discussion"
-      }, 
-      {
-        "start": "6:45 PM", 
-        "description": "See [announcement](https://lexingtonfriends.org/announcements/2016-08/#3rd-friday-potluck).", 
-        "location": "Meetinghouse: Library", 
+        "location": "", 
         "summary": "Potluck & Discussion"
       }
     ]
   }, 
   {
-    "day": "Sunday, August 21", 
+    "day": "Saturday, September 17", 
+    "events": [
+      {
+        "start": "10:00 AM", 
+        "description": "See [Announcement](https://lexingtonfriends.org/announcements/2016-09/#knitting-group)", 
+        "location": "", 
+        "summary": "Knitting Group"
+      }
+    ]
+  }, 
+  {
+    "day": "Sunday, September 18", 
     "events": [
       {
         "start": "9:15 AM", 
-        "description": "See [announcement](https://lexingtonfriends.org/announcements/2016-08/#first-hour-august-21).", 
+        "description": "Topic: [Names in the Bible](https://lexingtonfriends.org/announcements/2016-09/#first-hour-september-18)", 
         "location": "", 
-        "summary": "First Hour Discussion: Karen Armstrong on Religion & Violence"
+        "summary": "First Hour Discussion"
       }, 
       {
         "start": "10:30 AM", 
@@ -86,11 +96,11 @@
     ]
   }, 
   {
-    "day": "Sunday, August 28", 
+    "day": "Sunday, September 25", 
     "events": [
       {
         "start": "9:15 AM", 
-        "description": "[CROP Walk](https://lexingtonfriends.org/announcements/2016-08/#first-hour-august-28) with Judy Burris.", 
+        "description": "", 
         "location": "", 
         "summary": "First Hour Discussion"
       }, 
@@ -105,6 +115,12 @@
         "description": "", 
         "location": "", 
         "summary": "Sandwich Sunday"
+      }, 
+      {
+        "start": "3:00 PM", 
+        "description": "", 
+        "location": "", 
+        "summary": "CROP Hunger Walk"
       }
     ]
   }
