@@ -5,7 +5,7 @@
   {{ with $calendar := .Scratch.Get "month" | index $.Site.Data.calendar }}
   <dl>
     {{ range $calendar }}
-    <dt>{{ .day  }}</dt>
+    <dt class="clearfix">{{ .day  }}</dt>
       {{ range .events }}
       <dd><span class="time">{{ .start }}</span>{{ .summary }}{{ if .location }} ({{ .location }}){{ end }}{{if .description }}. {{ .description | markdownify }}{{ end }}</dd>
       {{ end }}
