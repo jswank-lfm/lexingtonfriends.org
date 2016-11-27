@@ -265,6 +265,8 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+  h1,h2,h3 { font-weight: bold; font-size: 22pt; padding-top: 30px;}
+  p,ul,ol { font-size: 16pt; }
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
