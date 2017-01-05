@@ -131,3 +131,8 @@ h2 {
 i.fa.fa-facebook-official {
   padding-right: 2px;
 }
+
+blockquote {
+  border: none;
+  font-style: italic;
+}
