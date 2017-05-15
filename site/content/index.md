@@ -12,7 +12,9 @@ is an individual practice, our worship is a group experience.  Most of us feel
 knit together in the silence.
 
 We welcome all visitors.  We believe there is that of God in each one of us,
-which leads us to be welcoming of diversity and inclusive of all people. 
+which leads us to be welcoming of diversity and inclusive of all people
+regardless of age, race, differing abilities, gender identity, and sexual
+orientation.
 
 Worship begins at 10:30am on Sunday preceded by singing from 10:15 to 10:30.
 Child and infant care is available during both and worship and the morning
