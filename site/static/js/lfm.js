@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  var form_action="https://lfm.webscript.io/contactform";
-  // var form_action="https://us-central1-lexington-friends.cloudfunctions.net/contactform";
+  // var form_action="https://lfm.webscript.io/contactform";
+  var form_action="https://us-central1-lexington-friends.cloudfunctions.net/contactform";
 
   add_a_names()
 
