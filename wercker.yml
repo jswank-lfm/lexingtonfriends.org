@@ -13,6 +13,13 @@ build:
           bin/ics2json > site/data/calendar/$(date +%Y-%m).json
           bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
 
+    - script:
+        name: decrypt admin pages
+        code: |
+          bin/vault -d -d site/content/admin/add-adult.md.enc
+          bin/vault -d -d site/content/admin/add-child.md.enc
+          bin/vault -d -d site/content/admin/attendance.md.enc
+
     - arjen/hugo-build:
         version: "0.15"
         basedir: site
