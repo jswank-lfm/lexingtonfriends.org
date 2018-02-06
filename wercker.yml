@@ -16,9 +16,9 @@ build:
     - script:
         name: decrypt admin pages
         code: |
-          bin/vault -d -d site/content/admin/add-adult.md.enc
-          bin/vault -d -d site/content/admin/add-child.md.enc
-          bin/vault -d -d site/content/admin/attendance.md.enc
+          bin/vault -d site/content/admin/add-adult.md.enc
+          bin/vault -d site/content/admin/add-child.md.enc
+          bin/vault -d site/content/admin/attendance.md.enc
 
     - arjen/hugo-build:
         version: "0.15"
@@ -28,7 +28,7 @@ build:
         name: create archive
         cwd: site/public
         code: |
-          zip -r lfm-archive.zip .
+          zip -r lfm-archive.zip . --exclude admin/\*
           
 deploy:
   steps:
