@@ -65,12 +65,12 @@ main() {
 
   case $ACTION in
     ENCRYPT)
-      openssl aes-256-cbc -a -salt -in ${FILENAME} -out ${FILENAME}.enc -pass "pass:${PASSPHRASE}"
+      openssl aes-256-cbc -a -salt -in ${FILENAME} -out ${FILENAME}.enc -pass "pass:${PASSPHRASE}" -md sha512
       rm ${FILENAME}
       ;;
     DECRYPT)
       output_file=$( echo ${FILENAME} | sed -e 's|.enc$||g' )
-      openssl aes-256-cbc -d -a -salt -in ${FILENAME} -out ${output_file} -pass "pass:${PASSPHRASE}"
+      openssl aes-256-cbc -d -a -salt -in ${FILENAME} -out ${output_file} -pass "pass:${PASSPHRASE}" -md sha512
       rm ${FILENAME}
       ;;
   esac
