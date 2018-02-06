@@ -1,0 +1,81 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o nounset
+set -o xtrace
+
+PASSPHRASE=${PASSPHRASE:=""}
+ACTION=""
+
+usage(){
+  cat <<EOF
+encrypt / eecrypt files
+Usage: vault [action] filename
+
+Actions:
+  -e     encrypt file
+  -d     decrypt file
+EOF
+}
+
+fail() {
+  echo $1 >&2
+  exit 1
+}
+
+init() {
+
+  OPTIND=1
+
+  while getopts "h?e?d?" opt; do
+      case "$opt" in
+      h|\?)
+          usage
+          exit 0
+          ;;
+      e)  
+          ACTION=ENCRYPT
+          ;;
+      d)  
+          ACTION=DECRYPT
+          ;;
+      esac
+  done
+
+  shift $((OPTIND-1))
+ 
+  if [[ -z $ACTION ]]; then
+    fail "action must be specified"
+  fi
+
+  if [[ $# -lt 1 ]]; then
+    fail "filename was not specified"
+  fi
+
+  FILENAME=$1
+
+  if [[ ! -e ${FILENAME} ]]; then
+    fail "filename ${FILENAME} does not exist"
+  fi
+
+
+}
+
+main() {
+  init $*
+
+  case $ACTION in
+    ENCRYPT)
+      openssl aes-256-cbc -a -salt -in ${FILENAME} -out ${FILENAME}.enc -pass "pass:${PASSPHRASE}"
+      rm ${FILENAME}
+      ;;
+    DECRYPT)
+      output_file=$( echo ${FILENAME} | sed -e 's|.enc$||g' )
+      openssl aes-256-cbc -d -a -salt -in ${FILENAME} -out ${output_file} -pass "pass:${PASSPHRASE}"
+      rm ${FILENAME}
+      ;;
+  esac
+
+}
+
+main $*
