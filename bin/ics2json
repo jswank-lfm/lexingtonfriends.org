@@ -28,16 +28,16 @@ def createEvent(comp):
     event = {}
 
     for f in ['dtstamp','dtstart','dtend']:
-        event[f] = comp.get(f).dt.astimezone(tz)
+#        event[f] = comp.get(f).dt.astimezone(tz)
 #        print event[f]
 #        print event[f].tzname()
 #        print event[f].astimezone(tz)
 #        print event[f].replace(tzinfo=tz)
 #        event[f] = comp.get(f).dt.astimezone(tz)
-#        try:
-#            event[f] = comp.get(f).dt.astimezone(tz)
-#        except AttributeError:
-#            next
+        try:
+            event[f] = comp.get(f).dt.astimezone(tz)
+        except AttributeError:
+            next
 
     for f in ['summary','location','description']:
         if f:
