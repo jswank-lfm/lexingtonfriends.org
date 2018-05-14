@@ -21,7 +21,7 @@ build:
           bin/vault -d site/content/admin/attendance.md.enc
 
     - arjen/hugo-build:
-        version: "0.15"
+        version: "0.40.3"
         basedir: site
 
     - script:
