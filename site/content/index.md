@@ -17,7 +17,7 @@ regardless of age, race, differing abilities, gender identity, and sexual
 orientation.
 
 Worship begins at 10:30am on Sunday preceded by singing from 10:15 to 10:30.
-Child and infant care is available during both and worship and the morning
-topical dicsussion (<a href="/announcements/">First Hour</a>).
-After about 15 minutes in worship with the adults, children withdraw to
-participate religious education activities with adult volunteers.
+Child and infant care is available during both worship and the morning topical
+discussion (<a href="/announcements/">First Hour</a>).  After about 15 minutes
+in worship with the adults, children withdraw to participate in religious
+education activities with adult volunteers.

@@ -12,7 +12,7 @@ have no clergy, and our worship has no sermon, no order of service, and no
 sacraments.  We sit together in silence, in a circular formation, facing each
 other.  We seek to still our minds in order to "listen" and learn how we are
 spiritually led. If someone is moved, he or she may speak from the silence.
-Such spoken messages are usually brief.  Some weeks, there may half a dozen
+Such spoken messages are usually brief.  Some weeks, there may be half a dozen
 messages spoken during the hour, and occasionally we sit in silence for the
 whole hour.
 
@@ -21,7 +21,7 @@ we generally find the silence to be rich and a time to slow down and reach for
 a profound center within.  Many times the messages of others speak to our own
 conditions.  It is not unusual for newcomers to find this experience very
 moving.  But of course, this type of worship is not necessarily congenial for
-for all people.
+all people.
 
 At Lexington Friends Meeting, worship lasts about one hour.  The Clerk ends the
 worship by shaking hands with the persons beside him or her.  Everyone then
