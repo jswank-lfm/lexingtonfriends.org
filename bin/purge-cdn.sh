@@ -9,6 +9,11 @@
 #   CLOUDFLARE_AUTH_KEY
 
 set -o errexit
+set -o nounset
+
+CLOUDFLARE_ZONE_ID=${CLOUDFLARE_ZONE_ID:?CLOUDFLARE_ZONE_ID is unset}
+CLOUDFLARE_AUTH_EMAIL=${CLOUDFLARE_AUTH_EMAIL:?CLOUDFLARE_AUTH_EMAIL is unset}
+CLOUDFLARE_AUTH_KEY=${CLOUDFLARE_AUTH_KEY:?CLOUDFLARE_AUTH_KEY is unset}
 
 fail() {
 
@@ -19,17 +24,7 @@ fail() {
 
 init() {
 
-  if [[ -z ${CLOUDFLARE_ZONE_ID} ]]; then
-    fail "CLOUDFLARE_ZONE_ID is unset"
-  fi
-
-  if [[ -z ${CLOUDFLARE_AUTH_EMAIL} ]]; then
-    fail "CLOUDFLARE_AUTH_EMAIL is unset"
-  fi
-
-  if [[ -z ${CLOUDFLARE_AUTH_KEY} ]]; then
-    fail "CLOUDFLARE_AUTH_KEY is unset"
-  fi
+  which curl > /dev/null || fail "curl command is not available"
 
 }
 
