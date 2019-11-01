@@ -1,0 +1,32 @@
+image: alpine/edge
+packages:
+  - python2
+  - py2-pip
+  - zip
+  - hugo
+  - aws-cli
+sources:
+  - https://github.com/jswank-lfm/lexingtonfriends.org.git
+tasks:
+  - pip_install: |
+      cd lexingtonfriends.org
+      pip2 install -r bin/requirements.txt --user
+  - create_calendar: |
+      cd lexingtonfriends.org
+      bin/ics2json > site/data/calendar/$(date +%Y-%m).json
+      bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
+  - site_generation: |
+      cd lexingtonfriends.org/site
+      hugo 
+  - site_archive: |
+      cd lexingtonfriends.org/site/public
+      zip -r lfm-archive.zip . --exclude admin/\*
+  - deploy_content: |
+      . ~/.secret_env
+      bin/s3sync lexingtonfriends.org/site/public
+  - purge_cdn: |
+      . ~/.secret_env
+      bin/purge-cdn.sh
+
+secrets:
+  - a187baab-2345-422a-9bdd-87b94dce9f35
