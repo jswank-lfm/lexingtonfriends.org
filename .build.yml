@@ -8,6 +8,9 @@ packages:
 sources:
   - https://github.com/jswank-lfm/lexingtonfriends.org.git
 tasks:
+  - checkout_branch: |
+      cd lexingtonfriends.org
+      git checkout sr.ht
   - pip_install: |
       cd lexingtonfriends.org
       pip2 install -r bin/requirements.txt --user
@@ -22,10 +25,16 @@ tasks:
       cd lexingtonfriends.org/site/public
       zip -r lfm-archive.zip . --exclude admin/\*
   - deploy_content: |
+      cd lexingtonfriange.org
+      set +o xtrace
       . ~/.secret_env
+      set -o xtrace
       bin/s3sync lexingtonfriends.org/site/public
   - purge_cdn: |
+      cd lexingtonfriends.org
+      set +o xtrace
       . ~/.secret_env
+      set -o xtrace
       bin/purge-cdn.sh
 
 secrets:
