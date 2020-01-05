@@ -9,7 +9,7 @@ All potlucks are at the Meetinghouse. We gather at 6:45 p.m. Supper is at
 7:00 p.m. Discussion begins at 7:45 p.m.; We conclude around 9:00 p.m.
 
 * **January 17, 2020 - Quaker Space, Quaker Way.** Led by Claire C.
-* **Feb 7, 2020 - Primer on Sexual and Gender Identities and Language**.  Led by Katie L.
+* **February 7, 2020 - Primer on Sexual and Gender Identities and Language**.  Led by Katie L.
 
 
 ## Experiment with Light
