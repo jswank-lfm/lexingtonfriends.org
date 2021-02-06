@@ -20,7 +20,8 @@ import json
 
 import argparse
 
-url = 'https://calendar.google.com/calendar/ical/tnf09favg9g38pk5r40d0ajg1s%40group.calendar.google.com/public/basic.ics'
+# url = 'https://calendar.google.com/calendar/ical/tnf09favg9g38pk5r40d0ajg1s%40group.calendar.google.com/public/basic.ics'
+url = 'https://calendar.google.com/calendar/ical/c_3a1g7h93kdrca256q12fue1u14%40group.calendar.google.com/public/basic.ics'
 
 tz = gettz('America/New_York')
 
