@@ -15,7 +15,7 @@ menu:
 
   <ul class="with-images">
     <li><img src="/images/LFP-logo.png"><a href="http://www.lexingtonfriendspreschool.org">Lexington Friends Preschool</a></li>
-    <li><img src="/images/OVYM-logo.png" ><a href="http://quaker.org/ovym/">Ohio Valley Yearly Meeting</a></li>
+    <li><img src="/images/OVYM-logo.png" ><a href="https://www.ovym.org/">Ohio Valley Yearly Meeting</a></li>
     <li><img src="/images/FGC-logo.png" ><a href="http://www.fgcquaker.org">Friends General Conference</a></li>
     <li><img src="/images/AFSC-logo.png"><a href="http://afsc.org/">American Friends Service Committee</a></li>
     <li><img src="/images/FCNL-logo.png"><a href="http://www.fcnl.org/">Friends Committee on National Legislation</a></li>
