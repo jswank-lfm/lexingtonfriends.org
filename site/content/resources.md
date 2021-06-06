@@ -6,15 +6,15 @@ menu:
     parent: "about"
     weight: 40
 ---
-<div class="row">
 
+<div class="row" class="resourceList">
   <ul>
     <li><a href="https://www.lexingtonky.gov/browse/community-services">Community Resources</a> as published by the Lexington-Fayette Urban County Government</li>
     <li><a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from NAMI</li>
   </ul>
 </div>
 
-<div class="row" id="resourceList">
+<div class="row" class="resourceList">
 
 <div class="col-md-4">
 
