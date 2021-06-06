@@ -6,17 +6,17 @@ menu:
     parent: "about"
     weight: 40
 ---
+<div class="row">
+
+  <ul>
+    <li><a href="https://www.lexingtonky.gov/browse/community-services">Community Resources</a> as published by the Lexington-Fayette Urban County Government</li>
+    <li><a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from NAMI</li>
+  </ul>
+</div>
+
 <div class="row" id="resourceList">
 
-  <div class="col-md-3">
-  <h1>Community Resources</h1>
-  <ul>
-    <li><a href="https://www.lexingtonky.gov/browse/community-services">LFUCG Community Services</a></li>
-    <li><a href="https://www.namilexington.org/resources/">NAMI Resources</a></li>
-  </ul>
-  </div>
-
-<div class="col-md-3">
+<div class="col-md-4">
 
   <h1>Our Affiliations</h1>
 
@@ -30,7 +30,7 @@ menu:
 
 </div>
 
-<div class="col-md-3">
+<div class="col-md-4">
 
 <h1>Quakers in Kentucky</h1>
 
@@ -41,7 +41,7 @@ menu:
 
 </div>
 
-<div class="col-md-3">
+<div class="col-md-4">
 
   <h1>Quakerism on the Web</h1>
   <ul>
