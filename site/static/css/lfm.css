@@ -106,19 +106,19 @@ h2 {
   margin-right: 10px;
 }
 
-.resourceList li {
+#resourceList li {
   list-style-type: none;
 }
 
-.resourceList ul {
+#resourceList ul {
   padding: 0px;
   margin-bottom: 0px;
 }
 
-.resourceList ul.with-images > li {
+#resourceList ul.with-images > li {
   padding-bottom:10px;
 }
-.resourceList ul.with-images > li > img {
+#resourceList ul.with-images > li > img {
   padding:5px 10px 0px 0px;
   height: 48px;
   width: 48px;
