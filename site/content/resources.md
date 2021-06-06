@@ -11,7 +11,7 @@ menu:
   <div class="col-md-3">
   <h1>Community Resources</h1>
   <ul>
-    <li><a href="https://www.lexingtonky.gov/browse/community-services">LFCUG Community Services</a></li>
+    <li><a href="https://www.lexingtonky.gov/browse/community-services">LFUCG Community Services</a></li>
     <li><a href="https://www.namilexington.org/resources/">NAMI Resources</a></li>
   </ul>
   </div>
