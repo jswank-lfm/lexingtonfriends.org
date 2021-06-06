@@ -8,9 +8,16 @@ menu:
 ---
 
 <div class="row">
-    <a href="https://www.lexingtonky.gov/browse/community-services">Community Resources</a> as published by the Lexington-Fayette Urban County Government<br/>
-    <a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from NAMI<br/>
+  <ul>
+    <li style="list-style-type: none">
+      <a href="https://www.lexingtonky.gov/browse/community-services">Community Resources</a> as published by the Lexington-Fayette Urban County Government
+    </li>
+    <li style="list-style-type: none">
+      <a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from NAMI
+    </li>
+  </ul>
 </div>
+
 
 <div class="row" id="resourceList">
 
