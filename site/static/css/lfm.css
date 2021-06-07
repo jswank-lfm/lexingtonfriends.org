@@ -136,3 +136,11 @@ blockquote {
   border: none;
   font-style: italic;
 }
+
+.notice {
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  padding: 16px 8px;
+  margin-bottom: 1em;
+}

@@ -7,8 +7,9 @@ url: "index.html"
 # Welcome!
 
 <div class="notice">
-As of Sunday, June 13 we will be meeting in person for worship.  We will still be
-supporting virtual participation: [contact us](/contact) for connection information.
+As of Sunday, June 13 we will be meeting in person for worship.  We will still
+be supporting virtual participation: <a href="/contact">contact us</a> for
+connection details.
 </div>
 
 Lexington Friends Meeting is an [unprogrammed](/worship) Quaker meeting.  Our
