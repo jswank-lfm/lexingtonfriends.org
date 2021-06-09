@@ -13,7 +13,7 @@ menu:
       <a href="https://www.lexingtonky.gov/browse/community-services">Community Resources</a> as published by the Lexington-Fayette Urban County Government
     </li>
     <li style="list-style-type: none">
-      <a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from NAMI
+      <a href="https://www.namilexington.org/resources/">Fayette County Community Services Directory</a> from the National Alliance on Mental Illness (NAMI)
     </li>
   </ul>
 </div>
