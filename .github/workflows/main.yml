@@ -38,10 +38,13 @@ jobs:
         # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
         token: # optional, default is ${{ github.token }}
     - name: install python requirements
-      run: pip install bin/requirements.txt
+      run: pip -r install bin/requirements.txt
+      
     - name: create JSON for calendar (months)
       run: bin/ics2json > site/data/calendar/$(date +%Y-%m).json
+      
     - name: create JSON for calendar (42 days)
       run: bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
+      
     - name: Build
       run: hugo --basedir site
