@@ -31,5 +31,3 @@ activities.  Friends began worship in the remodeled building in August 2014.
 The lower level was remodeled to host childcare for young children, and the
 [Lexington Friends Preschool](http://www.lexingtonfriendspreschool.com/), an
 independent, Montessori based program, was established there in 2015.
-
-
