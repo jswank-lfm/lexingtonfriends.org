@@ -4,11 +4,6 @@ title: "Welcome"
 
 # Welcome!
 
-<div class="notice">
-As of Sunday, June 13 we will be meeting in person for worship.  Virtual participation will
-continue to be supported: <a href="/contact">contact us</a> for connection details.
-</div>
-
 Lexington Friends Meeting is an [unprogrammed](/worship) Quaker meeting.  Our
 worship is similar in form to silent meditation.  But, unlike meditation which
 is an individual practice, our worship is a group experience.  Most of us feel
