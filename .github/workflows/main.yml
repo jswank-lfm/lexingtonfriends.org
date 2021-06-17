@@ -49,3 +49,4 @@ jobs:
       
     - name: Build
       run: hugo --basedir site
+      working-directory: site
