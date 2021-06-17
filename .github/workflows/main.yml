@@ -37,8 +37,9 @@ jobs:
         architecture: # optional
         # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
         token: # optional, default is ${{ github.token }}
+        
     - name: install python requirements
-      run: pip -r install bin/requirements.txt
+      run: pip install -r bin/requirements.txt
       
     - name: create JSON for calendar (months)
       run: bin/ics2json > site/data/calendar/$(date +%Y-%m).json
