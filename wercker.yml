@@ -20,8 +20,8 @@ build:
           bin/vault -d site/content/admin/add-child.md.enc
           bin/vault -d site/content/admin/attendance.md.enc
 
-    - arjen/hugo-build@1.29.0:
-        version: "0.15"
+    - arjen/hugo-build@2.14.0:
+        version: "0.83.1"
         basedir: site
 
     - script:

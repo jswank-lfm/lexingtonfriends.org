@@ -6,13 +6,14 @@ googleAnalytics: UA-76746700-1
 
 menu:
   main:
-    - Name: "About Us"
-      Identifier: "about"
-      Weight: 40
-    - Name: "Activities"
-      Identifier: "activities"
-      URL: "/calendar"
-      Weight: 60
+    - name: About Us
+      identifier: about
+      weight: 40
+      url: /about/
+    - name: Activities
+      identifier: activities
+      url: /calendar/
+      weight: 60
 
 params:
   metaDescription: "Lexington Friends Meeting (Quaker), Religious Society of Friends, is associated part of the Ohio Yearly Meeting (OVYM) and Friends General Conference (FGC) and located in Lexington, Kentucky."

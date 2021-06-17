@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<div class="container">
+  <div id="calendar">
+    <h1>{{ .Title }}</h1>
+
+  <dl>
+    {{ range $.Site.Data.calendar.upcoming }}
+    <dt class="clearfix">{{ .day  }}</dt>
+      {{ range .events }}
+      <dd><span class="time">{{ .start }}</span>{{ .summary }}{{ if .location }} ({{ .location }}){{ end }}{{if .description }}. {{ .description | markdownify }}{{ end }}</dd>
+      {{ end }}
+    {{ end }}
+  </dl> 
+  </div>
+
+  This information is also available as a <a href="https://lfm.page.link/XktS">Google Calendar</a>.
+
+</div>
+
+{{ partial "footer.html" . }}
