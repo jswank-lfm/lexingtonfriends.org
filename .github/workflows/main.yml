@@ -48,5 +48,5 @@ jobs:
       run: bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
       
     - name: Build
-      run: hugo --basedir site
+      run: hugo
       working-directory: site
