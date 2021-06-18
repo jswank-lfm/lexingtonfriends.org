@@ -59,9 +59,7 @@ jobs:
       working-directory: site
       
     - name: Archive site artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: dist-without-markdown
-          path: |
-            dist
-            !dist/**/*.md
+      uses: actions/upload-artifact@v2
+      with:
+        name: site
+        path: public
