@@ -42,11 +42,26 @@ jobs:
       run: pip install -r bin/requirements.txt
       
     - name: create JSON for calendar (months)
-      run: bin/ics2json > site/data/calendar/$(date +%Y-%m).json
+      run: |
+        bin/ics2json > site/data/calendar/$(date +%Y-%m).json
+        bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
       
-    - name: create JSON for calendar (42 days)
-      run: bin/ics2json --start=$(date +%Y-%m-%d) --days=42 > site/data/calendar/upcoming.json
-      
+    - name: decrypt pages
+      env:
+        PASSPHRASE: ${{ secrets.PASSPHRASE }}
+      run: |
+        bin/vault -d site/content/admin/add-adult.md.enc
+        bin/vault -d site/content/admin/add-child.md.enc
+        bin/vault -d site/content/admin/attendance.md.enc
+        
     - name: Build
       run: hugo
       working-directory: site
+      
+    - name: Archive site artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist-without-markdown
+          path: |
+            dist
+            !dist/**/*.md
