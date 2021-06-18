@@ -4,6 +4,11 @@ title: "Lexington Friends Meeting (Quaker)"
 canonifyurls: false
 googleAnalytics: UA-76746700-1
 
+deployment:
+  targets:
+    - name: S3
+      URL: s3://lexingtonfriends.org?region=us-east-1
+
 menu:
   main:
     - name: About Us
