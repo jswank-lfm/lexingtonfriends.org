@@ -57,11 +57,11 @@ jobs:
       run: hugo
       working-directory: site
       
-    - name: Archive site artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: site
-        path: site/public
+      #    - name: Archive site artifacts
+      #uses: actions/upload-artifact@v2
+      #with:
+      #  name: site
+      #  path: site/public
 
     - name: Deploy
       run: hugo deploy
