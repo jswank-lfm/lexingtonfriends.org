@@ -4,7 +4,7 @@ title: "Welcome"
 
 # Welcome!
 
-Lexington Friends Meeting is an [unprogrammed](/worship) Quaker meeting.  Our
+Lexington Friends Meeting is an [unprogrammed](/about/worship) Quaker meeting.  Our
 worship is similar in form to silent meditation.  But, unlike meditation which
 is an individual practice, our worship is a group experience.  Most of us feel
 knit together in the silence.
