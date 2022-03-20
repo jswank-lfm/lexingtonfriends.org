@@ -59,9 +59,9 @@ function sendEmail(req,res) {
     if (err) {
       console.error("received sendgrid error: " + err);
       console.error(result);
-      res.send(500,"system error sending email");
+      res.status(500).send("system error sending email");
     } else {
-      res.send(200,"email sent");
+      res.status(200).send("email sent");
     }
   });
 }
