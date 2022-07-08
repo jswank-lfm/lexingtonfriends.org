@@ -21,5 +21,6 @@ menu:
       weight: 60
 
 params:
-  metaDescription: "Lexington Friends Meeting (Quaker), Religious Society of Friends, is associated part of the Ohio Yearly Meeting (OVYM) and Friends General Conference (FGC) and located in Lexington, Kentucky."
+  metaDescription: "Lexington Friends Meeting (Quaker), Religious Society of Friends, is part of the Ohio Yearly Meeting (OVYM) and Friends General Conference (FGC) and located in Lexington, Kentucky."
   metaKeywords: "Friends, Monthly Meeting, Quaker, Quakers, Religious Society of Friends, Ohio Valley Yearly Meeting, OVYM, Friends General Conference, FGC, Lexington, Kentucky"
+  fathomAnalytics: "TUUYHCTC"
