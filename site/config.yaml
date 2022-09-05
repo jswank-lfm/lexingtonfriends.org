@@ -2,7 +2,6 @@ baseurl: "https://lexingtonfriends.org/"
 languageCode: "en-us"
 title: "Lexington Friends Meeting (Quaker)"
 canonifyurls: false
-googleAnalytics: UA-76746700-1
 
 deployment:
   targets:
