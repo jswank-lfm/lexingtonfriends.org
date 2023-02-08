@@ -53,6 +53,8 @@ care, education, or freedom".
 
 *(Note: The Covenant of Community was approved in 2012. It will be reviewed and updated in 2023.)*
 
-> Approved at Meeting for Business, November 13, 2022 
-> Lexington Friends Meeting (Quaker)
-> For more info: clerk@lexingtonfriends.org
+Approved at Meeting for Business, November 13, 2022 
+
+Lexington Friends Meeting (Quaker)
+
+For more info: clerk@lexingtonfriends.org
