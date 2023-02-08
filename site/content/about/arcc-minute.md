@@ -8,7 +8,7 @@ menu:
 ---
 
 
-Anti-racism Coordinating Committee (ARCC)
+Anti-racism Coordinating Committee (ARCC), Lexington Friends Meeting
 
 At this time of racial reckoning in the United States, Lexington Friends
 Meeting commits itself to becoming an anti-racist faith community. We recognize
@@ -54,7 +54,3 @@ care, education, or freedom".
 *(Note: The Covenant of Community was approved in 2012. It will be reviewed and updated in 2023.)*
 
 Approved at Meeting for Business, November 13, 2022 
-
-Lexington Friends Meeting (Quaker)
-
-For more info: clerk@lexingtonfriends.org
