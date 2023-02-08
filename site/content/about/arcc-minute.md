@@ -4,7 +4,7 @@ linktitle: "Anti-Racism Minute"
 menu:
   main:
     parent: "about"
-    weight: 55
+    weight: 65
 ---
 
 
