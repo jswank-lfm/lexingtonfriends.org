@@ -29,6 +29,12 @@ Lexington.
 Following a brief question & answer period, stay to enjoy light refreshments
 and informal conversation around our responses and possible ways forward.
 
+**Open to the public**
+
+**No registration required**
+
+**Just come and bring your friends!**
+
 ---
 Resources:
 - https://www.segregatedlexington.com
