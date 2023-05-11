@@ -151,3 +151,32 @@ blockquote {
   margin-bottom: 1em;
 }
 
+#event img[src*="#event"] {
+  width: 100%;
+}
+
+#event dt {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #999;
+}
+
+#event span.detail {
+  float: left;
+  width: 75px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#event div.detail {
+  line-height: 3.0;
+  font-size: 1.1em;
+}
+#event div.detail > span.type {
+  float: left;
+  width: 75px;
+  text-align: right;
+  margin-right: 24px;
+  color: #999;
+}
+

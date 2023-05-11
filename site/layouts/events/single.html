@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+<div id="event" class="container">
+
+  <h1>{{ .Title }}</h1>
+
+  <div class="row">
+
+    <div class="col-md-8">
+    {{ .Content }}
+    </div>
+
+    <div class="col-md-4">
+
+      {{ with .Params.eventDate }}
+      <div class="detail">
+      <span class="type">Date</span>
+      {{ dateFormat "Jan 2, 2006" . }}
+      </div>
+      {{ end }}
+    
+      <div class="detail">
+      <span class="type">Time</span>
+      {{ .Params.time }}
+      </div>
+
+      <div class="detail">
+      <span class="type">Cost</span>
+      {{ .Params.cost }}
+      </div>
+
+      <div class="detail">
+      <span class="type">Venue</span>
+      {{ .Params.venue }}
+      </div>
+
+      <div class="detail">
+      <span class="type">Address</span>
+      {{ .Params.address }}
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+{{ partial "footer.html" . }}
