@@ -12,8 +12,9 @@ address: 649 Price Ave
 Join **Barbara Sutherland** and **Rona Roberts**, the local researchers of
 [Segregated Lexington](https://www.segregatedlexington.com), as they offer
 their eye-opening presentation *Lexington, Kentucky: Segregated by Design*.
+
 Often we think segregated neighborhoods came about by chance, but Rona and
-Barbara research reveals compelling data and archival images to document
+Barbara's research reveals compelling data and archival images to document
 sometimes astonishing policies and decisions to the contrary. Following Richard
 Rothstein's thought-provoking book *The Color of Law*, they explore multiple
 aspects of our forgotten history and how they played out right here in
