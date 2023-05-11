@@ -27,4 +27,4 @@ following the presentation.
 Resources:
 - https://www.segregatedlexington.com
 - [Printable Flyer](segregated-lexington-print-flyer.pdf)
-- [Social Media Flyer](segregated-by-design,jpg)
+- [Social Media Flyer](segregated-by-design.jpg)
