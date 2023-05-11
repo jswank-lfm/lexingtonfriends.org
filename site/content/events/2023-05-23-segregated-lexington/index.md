@@ -2,7 +2,7 @@
 title: "Lexington, Kentucky: Segregated by Design?"
 eventDate: 2023-05-23
 time: 7:00pm - 8:30pm
-venue: Lexington Friends Meetinghouse
+venue: LFM Meetinghouse
 cost: Free
 address: 649 Price Ave
 ---
