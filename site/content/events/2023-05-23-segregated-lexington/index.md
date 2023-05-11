@@ -1,5 +1,5 @@
 ---
-title: "Lexington, Kentucky: Segregated by Design?"
+title: "Lexington, Kentucky: Segregated by Design"
 eventDate: 2023-05-23
 time: 7:00pm - 8:30pm
 venue: LFM Meeting House
@@ -9,10 +9,15 @@ address: 649 Price Ave
 
 ![flyer image](segregated-by-design-header.jpg#event)
 
-Join **Barbara Sutherland** and **Rona Roberts**, the researchers of [Segregated
-Lexington](https://www.segregatedlexington.com), as they present
-*Lexington, Kentucky: Segregated by Design?* Local policies and actions that
-perpetuated segregation will be explored, including:
+Join **Barbara Sutherland** and **Rona Roberts**, the local researchers of
+[Segregated Lexington](https://www.segregatedlexington.com), as they offer
+their eye-opening presentation *Lexington, Kentucky: Segregated by Design*.
+Often we think segregated neighborhoods came about by chance, but Rona and
+Barbara research reveals compelling data and archival images to document
+sometimes astonishing policies and decisions to the contrary. Following Richard
+Rothstein's thought-provoking book *The Color of Law*, they explore multiple
+aspects of our forgotten history and how they played out right here in
+Lexington. 
 
 - Racially restrictive deed covenants
 - Redlining
@@ -20,8 +25,8 @@ perpetuated segregation will be explored, including:
 - Certain planning and zoning practices
 - Urban renewal
 
-There will be an opportunity for discussion and light refreshments available
-following the presentation.
+Following a brief question & answer period, stay to enjoy light refreshments
+and informal conversation around our responses and possible ways forward.
 
 ---
 Resources:
