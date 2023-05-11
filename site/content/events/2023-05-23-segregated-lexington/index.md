@@ -10,8 +10,8 @@ address: 649 Price Ave
 ![flyer image](segregated-by-design-header.jpg#event)
 
 Join **Barbara Sutherland** and **Rona Roberts**, the researchers of [Segregated
-Lexington](https://www.segregatedlexington.com), for their presentation of
-*Lexington, Kentucky: Segregated by Design?*.  Local policies and actions that
+Lexington](https://www.segregatedlexington.com), as they present
+*Lexington, Kentucky: Segregated by Design?* Local policies and actions that
 perpetuated segregation will be explored, including:
 
 - Racially restrictive deed covenants
