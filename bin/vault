@@ -8,7 +8,7 @@ ACTION=""
 
 usage(){
   cat <<EOF
-encrypt / eecrypt files
+encrypt / decrypt files
 Usage: vault [action] filename
 
 Actions:
