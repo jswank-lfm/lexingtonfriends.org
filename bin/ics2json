@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # ics2json - Convert an ICS calendar file to JSON
 #
@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 from calendar import monthrange
 from dateutil.tz import *
 from dateutil.rrule import *
+from dateutil.parser import parse
 
 import requests
 
@@ -29,12 +30,6 @@ def createEvent(comp):
     event = {}
 
     for f in ['dtstamp','dtstart','dtend']:
-#        event[f] = comp.get(f).dt.astimezone(tz)
-#        print event[f]
-#        print event[f].tzname()
-#        print event[f].astimezone(tz)
-#        print event[f].replace(tzinfo=tz)
-#        event[f] = comp.get(f).dt.astimezone(tz)
         try:
             event[f] = comp.get(f).dt.astimezone(tz)
         except AttributeError:
@@ -64,7 +59,7 @@ def getEvents(cal,start,end):
                     recurrence_map[c.get('uid')] = [date]
 
             if c.get('rrule'):
-                rr = rrulestr( c.get('rrule').to_ical(),dtstart=event['dtstart'] )
+                rr = rrulestr( c.get('rrule').to_ical().decode(),dtstart=event['dtstart'] )
 
                 if c.get('exdate'):
                     if type(c.get('exdate')) == type(list()):
@@ -130,7 +125,7 @@ def main():
     events = getEvents(cal,start,end)
 
     # sort events for each day
-    for k, v in events.iteritems():
+    for k, v in iter(events.items()):
         # this should totally work, but for some reason datetime.datetime comparisons are off
         # events[k] = sorted(v,key=operator.itemgetter('dtstart'))
         events[k] = sorted(v,key=lambda e: e['dtstart'].time())
@@ -152,7 +147,7 @@ def main():
                 day['events'].append(export_event)
         export_events.append(day)
 
-    print json.dumps(export_events, indent=2)
+    print(json.dumps(export_events, indent=2))
 
 
 if __name__ == "__main__":
