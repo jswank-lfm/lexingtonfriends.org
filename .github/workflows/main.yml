@@ -29,10 +29,10 @@ jobs:
         # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     
     - name: Setup Python
-      uses: actions/setup-python@v2.2.2
+      uses: actions/setup-python@v4
       with:
         # Version range or exact version of a Python version to use, using SemVer's version range syntax.
-        python-version: 2.7
+        python-version: 
         # The target architecture (x86, x64) of the Python interpreter.
         architecture: # optional
         # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
