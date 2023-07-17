@@ -97,6 +97,9 @@ h2 {
   #site-updated {
     display: none;
   }
+  #calendar span.info {
+    display: none;
+  }  
 }
 
 #calendar span.time {
@@ -112,7 +115,7 @@ h2 {
   margin-top: 12px;
 }
 
-#calendar dd > p {
+#calendar span.info > p {
   display: inline;
   font-style: italic;
 }
