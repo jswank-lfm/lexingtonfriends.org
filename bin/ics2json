@@ -59,11 +59,6 @@ def getEvents(cal,start,end):
                     recurrence_map[c.get('uid')] = [date]
 
             if c.get('rrule'):
-                rulestr = c.get('rrule').to_ical()
-                rulestr = c.get('rrule')
-                print('rrule:',rulestr)
-                dtstart = event['dtstart']
-                print('dtstart:',dtstart)
                 rr = rrulestr( c.get('rrule').to_ical().decode(),dtstart=event['dtstart'] )
 
                 if c.get('exdate'):
