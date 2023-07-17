@@ -107,9 +107,14 @@ h2 {
 }
 
 #calendar dt {
-  font-weight: bold;
+  font-weight: bold; 
   font-size: 18px;
   margin-top: 12px;
+}
+
+#calendar dd > p {
+  display: inline;
+  font-style: italic;
 }
 
 #resourceList li {

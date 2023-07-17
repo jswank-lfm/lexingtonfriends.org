@@ -1,161 +1,294 @@
 [
   {
-    "day": "Friday, August 19", 
+    "day": "Monday, July 17",
     "events": [
       {
-        "start": "6:00 PM", 
-        "description": "Saturday and Sunday event.", 
-        "location": "Quaker Hill Conference Center, Richmond, Indiana", 
-        "summary": "POSTPONED: Workshop - Quakers and Peace: How Effective Can the Peace Testimony Be in 2016?"
-      }, 
-      {
-        "start": "6:45 PM", 
-        "description": "https://lexingtonfriends.org/announcements/2016-08/#3rd-friday-potluck", 
-        "location": "Meetinghouse: Library", 
-        "summary": "Potluck & Discussion: Quaker Communications with one another and the world"
+        "start": "1:00 PM",
+        "summary": "White Privilege & Racial Justice Drop In",
+        "location": null,
+        "description": "<p>The Monday Drop-in Group offers a brave space where Friends discuss racial issues and seek to recognize racial inequity, our white privilege, and our prejudices. Throughout this work we will strive to stay mindful of the Light in each of us and the love we bear each other. The discussions are unstructured to provide Friends a place to raise issues on their minds. Sometimes the group leader may offer a question, a brief reading or a theme to start the discussion.&nbsp; All are welcome to attend and join in!&nbsp;</p>"
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, August 21", 
+    "day": "Wednesday, July 19",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "We will contiinue reading and discussing excerpts from \"Fields of Blood:  Religion and the History of Violence\" by Karen Armstrong.  Pamela Graber will lead us.", 
-        "location": "Meetinghouse: Library", 
-        "summary": "First Hour Discussion - Karen Armstrong on Religion & Violence"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
+        "start": "2:30 PM",
+        "summary": "Meeting for Healing",
+        "location": null,
+        "description": "Friends join together in worship for healing and prayers."
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, August 28", 
+    "day": "Friday, July 21",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "First Hour Discussion"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
-      {
-        "start": "12:00 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Sandwich Sunday"
+        "start": "7:00 PM",
+        "summary": "Potluck",
+        "location": null,
+        "description": null
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, September 4", 
+    "day": "Sunday, July 23",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "First Hour Discussion"
-      }, 
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
       {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
       {
-        "start": "12:00 PM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "Outreach Committee Meeting"
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, September 11", 
+    "day": "Wednesday, July 26",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "First Hour Discussion"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
-      {
-        "start": "12:30 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting For Worship With Attention to Business"
+        "start": "2:30 PM",
+        "summary": "Meeting for Healing",
+        "location": null,
+        "description": "Friends join together in worship for healing and prayers."
       }
     ]
-  }, 
+  },
   {
-    "day": "Friday, September 16", 
+    "day": "Sunday, July 30",
     "events": [
       {
-        "start": "6:45 PM", 
-        "description": "", 
-        "location": "Meetinghouse - Library", 
-        "summary": "Potluck & Discussion"
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, September 18", 
+    "day": "Wednesday, August 2",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "First Hour Discussion"
-      }, 
-      {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
+        "start": "2:30 PM",
+        "summary": "Experiment with Light",
+        "location": null,
+        "description": "Join Friends in Experiment with Light guided meditation. "
       }
     ]
-  }, 
+  },
   {
-    "day": "Sunday, September 25", 
+    "day": "Friday, August 4",
     "events": [
       {
-        "start": "9:15 AM", 
-        "description": "", 
-        "location": "Library", 
-        "summary": "First Hour Discussion"
-      }, 
+        "start": "7:00 PM",
+        "summary": "Potluck",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Sunday, August 6",
+    "events": [
       {
-        "start": "10:30 AM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Meeting for Worship"
-      }, 
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
       {
-        "start": "12:00 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "Sandwich Sunday"
-      }, 
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
       {
-        "start": "3:00 PM", 
-        "description": "", 
-        "location": "", 
-        "summary": "CROP Hunger Walk"
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "1:00 PM",
+        "summary": "Outreach Committee Meeting",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Monday, August 7",
+    "events": [
+      {
+        "start": "1:00 PM",
+        "summary": "White Privilege & Racial Justice Drop In",
+        "location": null,
+        "description": "<p>The Monday Drop-in Group offers a brave space where Friends discuss racial issues and seek to recognize racial inequity, our white privilege, and our prejudices. Throughout this work we will strive to stay mindful of the Light in each of us and the love we bear each other. The discussions are unstructured to provide Friends a place to raise issues on their minds. Sometimes the group leader may offer a question, a brief reading or a theme to start the discussion.&nbsp; All are welcome to attend and join in!&nbsp;</p>"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday, August 9",
+    "events": [
+      {
+        "start": "2:30 PM",
+        "summary": "Meeting for Healing",
+        "location": null,
+        "description": "Friends join together in worship for healing and prayers. "
+      }
+    ]
+  },
+  {
+    "day": "Thursday, August 10",
+    "events": [
+      {
+        "start": "1:00 PM",
+        "summary": "Book Club",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Sunday, August 13",
+    "events": [
+      {
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "1:00 PM",
+        "summary": "Meeting for Business",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Wednesday, August 16",
+    "events": [
+      {
+        "start": "2:30 PM",
+        "summary": "Meeting for Healing",
+        "location": null,
+        "description": "Friends join together in worship for healing and prayers."
+      }
+    ]
+  },
+  {
+    "day": "Friday, August 18",
+    "events": [
+      {
+        "start": "7:00 PM",
+        "summary": "Potluck",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Sunday, August 20",
+    "events": [
+      {
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
+      }
+    ]
+  },
+  {
+    "day": "Monday, August 21",
+    "events": [
+      {
+        "start": "1:00 PM",
+        "summary": "White Privilege & Racial Justice Drop In",
+        "location": null,
+        "description": "<p>The Monday Drop-in Group offers a brave space where Friends discuss racial issues and seek to recognize racial inequity, our white privilege, and our prejudices. Throughout this work we will strive to stay mindful of the Light in each of us and the love we bear each other. The discussions are unstructured to provide Friends a place to raise issues on their minds. Sometimes the group leader may offer a question, a brief reading or a theme to start the discussion.&nbsp; All are welcome to attend and join in!&nbsp;</p>"
+      }
+    ]
+  },
+  {
+    "day": "Wednesday, August 23",
+    "events": [
+      {
+        "start": "2:30 PM",
+        "summary": "Meeting for Healing",
+        "location": null,
+        "description": "Friends join together in worship for healing and prayers."
+      }
+    ]
+  },
+  {
+    "day": "Sunday, August 27",
+    "events": [
+      {
+        "start": "9:00 AM",
+        "summary": "First Hour Discussion",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "10:30 AM",
+        "summary": "Meeting for Worship",
+        "location": null,
+        "description": null
+      },
+      {
+        "start": "11:30 AM",
+        "summary": "Introductions and Check-in",
+        "location": null,
+        "description": null
       }
     ]
   }
