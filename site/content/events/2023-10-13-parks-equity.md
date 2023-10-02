@@ -23,7 +23,7 @@ Learn where you can volunteer to help with new mini projects to help bring the
 benefits of trees and nature to more people.
 
 Following a brief question & answer period, stay to enjoy light refreshments
-and informal conversation around our responses and possible ways forward.
+and informal conversation.
 
 **Open to the public**
 
