@@ -14,16 +14,14 @@ Greenspace and public space aren't just nice things to have in a community.
 Evidence shows that access to greenspace has significant positive effects on
 public health, climate resiliency, and more. 
 
-Join **Megan Gulla** in a presentation about Lexington's past and current local
-policies have impacted park access. And what the [Lexington Park Equity
+Join **Megan Gulla** in a [Tree Week](https://ufi.ca.uky.edu/treeweek)
+presentation about Lexington's past and current local policies have impacted
+park access. And what the [Lexington Park Equity
 Accelerator](https://www.lexingtonparkequity.org/) is doing to help everyone
 have a voice in park decision making.
 
 Learn where you can volunteer to help with new mini projects to help bring the
 benefits of trees and nature to more people.
-
-Following a brief question & answer period, stay to enjoy light refreshments
-and informal conversation.
 
 **Open to the public**
 
@@ -34,3 +32,4 @@ and informal conversation.
 ---
 Resources:
 - [Lexington Park Equity Accelerator](https://www.lexingtonparkequity.org/)
+- [Tree Week](https://ufi.ca.uky.edu/treeweek) - Events and Information
