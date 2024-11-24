@@ -6,7 +6,10 @@ menu:
     weight: 110
 ---
 
-The Lexington Friends Meeting is supported by the contributions of its members and attenders.  Your support helps us to maintain our meetinghouse, support our community, and provide a welcoming space for all who come to worship with us.
+The Lexington Friends Meeting is supported by the contributions of its members
+and attenders.  Your donation helps us support our communiuty, maintain our
+meetinghouse, and provide a welcoming space for all who come to worship with
+us.
 
 Your gift is tax-deductible.  Lexington Friends Meeting is a 501(c)(3) organization.
 
