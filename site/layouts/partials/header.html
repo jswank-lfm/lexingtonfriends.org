@@ -25,6 +25,10 @@
     <meta name="description" content="{{ .Param "metaDescription" }}"/>
     <meta name="keywords" content="{{ .Param "metaKeywords" }}"/>
 
+    {{ if .Params.redirect_url }}
+    <meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
+    {{ end }}
+
   </head>
   <body>
 
