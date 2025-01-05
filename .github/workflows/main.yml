@@ -23,7 +23,8 @@ jobs:
       uses: peaceiris/actions-hugo@v2.4.13
       with:
         # The Hugo version to download (if necessary) and use. Example: 0.58.2
-        hugo-version: 0.138.0 # optional, default is latest
+        # Note: version >= 0.137.0 may not properly deploy content to S3: https://github.com/peaceiris/actions-hugo/issues/658
+        hugo-version: 0.136.5 # optional, default is latest
         # Download (if necessary) and use Hugo extended version. Example: true
         extended: # optional, default is false
         # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
