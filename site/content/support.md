@@ -17,15 +17,12 @@ organization.
 ---
 
 You may donate online here. *You are not required to have a PayPal account to
-donate: you may donate with a credit card or Venmo and there are no fees
-for you.*
+donate: you may donate with a credit card mno fees for you.*
 
-
-<style>.pp-SSZ3TNR3MLMVN{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-<form action="https://www.paypal.com/ncp/payment/SSZ3TNR3MLMVN" method="post" target="_top" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-  <input class="pp-SSZ3TNR3MLMVN" type="submit" value="Donate" />
-  <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
-  <section> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="QBHGYBRVB5B78" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
 ---
@@ -38,7 +35,7 @@ Lexington, KY 40508<br/>
 
 ---
 
-You can make a recurring donation through your bank's bill pay service. You can also [setup a recurring donation](
+You can make a recurring donation through your bank's bill pay service or [setup a recurring donation](
 https://www.paypal.com/donate/?hosted_button_id=QBHGYBRVB5B78) using a debit or credit card.
 
 ---
