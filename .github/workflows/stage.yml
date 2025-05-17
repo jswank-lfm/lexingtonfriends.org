@@ -1,15 +1,15 @@
-name: Build & Deploy Production
+name: Build & Deploy Staging
 
 # Controls when the action will run. 
 on:
   push:
     branches:
+      - stage
+  pull_request:
+    branches:
       - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # run daily @ 04:18
-  schedule:
-    - cron: '18 4 * * *'  # every day at 04:18 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -57,13 +57,13 @@ jobs:
         bin/vault -d site/content/admin/attendance.md.enc
         
     - name: Build
-      run: hugo --minify
+      run: hugo --minify --baseURL="https://stage.lexingtonfriends.org/"
       working-directory: site
       
     - name: Archive site artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: site
+        name: site-stage
         path: site/public
     
     - name: Configure AWS credentials
@@ -73,13 +73,13 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: 'us-east-1'
 
-    - name: Deploy to S3
+    - name: Deploy to S3 Staging
       run: |
-        aws s3 sync site/public/ s3://lexingtonfriends.org/ --delete
-
-    - name: Flush CDN
+        aws s3 sync site/public/ s3://stage.lexingtonfriends.org/ --delete
+        
+    - name: Flush Staging CDN
       run: |
         bin/purge-cdn.sh
       env:
         CLOUDFLARE_AUTH_KEY: ${{ secrets.CLOUDFLARE_AUTH_KEY }}
-        CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_STAGE_ZONE_ID }}
