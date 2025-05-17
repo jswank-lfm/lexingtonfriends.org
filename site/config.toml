@@ -3,10 +3,6 @@ languageCode = "en-us"
 title = "Lexington Friends Meeting (Quaker)"
 canonifyurls = false
 
-[[deployment.targets]]
-  name = "S3"
-  URL = "s3://lexingtonfriends.org?region=us-east-1"
-
 [[menu.main]]
   name = "About Us"
   identifier = "about"
