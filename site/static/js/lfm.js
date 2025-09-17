@@ -36,20 +36,34 @@ $(document).ready(function() {
       }
     }
  
+    //check if reCAPTCHA is completed
+    var recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) {
+      hasErrors = true;
+      contactForm.addAjaxMessage("Please complete the reCAPTCHA verification.", true);
+    }
+
     //if there are any errors return without sending e-mail
     if (hasErrors) {
       return false;
     }
  
     //send the feedback e-mail
+    var formData = $("#contactForm").serialize();
+    var recaptchaResponse = grecaptcha.getResponse();
+    if (recaptchaResponse) {
+      formData += "&g-recaptcha-response=" + encodeURIComponent(recaptchaResponse);
+    }
+    
     $.ajax({
       type: "POST",
       url: form_action,
-      data: $("#contactForm").serialize(),
+      data: formData,
       success: function(response)
       {
         contactForm.addAjaxMessage("Thanks for contacting us!", false);
         $("#contactForm").find("input[type=text], input[type=email], input[type=tel], textarea").val("");
+        grecaptcha.reset();
       },
       error: function(response)
       {
