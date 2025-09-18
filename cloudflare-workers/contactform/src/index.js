@@ -1,10 +1,17 @@
 export default {
 	async fetch(request, env, ctx) {
+		// Helper function to get allowed CORS origin
+		const getAllowedOrigin = () => {
+			const allowedOrigins = (env.ORIGIN || '*').split(',').map(o => o.trim());
+			const requestOrigin = request.headers.get('Origin');
+			return allowedOrigins.includes(requestOrigin) ? requestOrigin : allowedOrigins[0];
+		};
+
 		// Handle CORS preflight requests
 		if (request.method === 'OPTIONS') {
 			return new Response(null, {
 				headers: {
-					'Access-Control-Allow-Origin': env.ORIGIN || '*',
+					'Access-Control-Allow-Origin': getAllowedOrigin(),
 					'Access-Control-Allow-Methods': 'POST, OPTIONS',
 					'Access-Control-Allow-Headers': 'Content-Type',
 				},
@@ -32,7 +39,7 @@ export default {
 			if (!body.name || !body.email || !body.subject || !body.message || !body['g-recaptcha-response']) {
 				return new Response('Missing required fields', { 
 					status: 400,
-					headers: { 'Access-Control-Allow-Origin': env.ORIGIN || '*' }
+					headers: { 'Access-Control-Allow-Origin': getAllowedOrigin() }
 				});
 			}
 
@@ -52,7 +59,7 @@ export default {
 				console.error('reCAPTCHA validation failed - returning error to client');
 				return new Response('Unable to validate reCAPTCHA', { 
 					status: 400,
-					headers: { 'Access-Control-Allow-Origin': env.ORIGIN || '*' }
+					headers: { 'Access-Control-Allow-Origin': getAllowedOrigin() }
 				});
 			}
 
@@ -61,14 +68,14 @@ export default {
 
 			return new Response('email sent', {
 				status: 200,
-				headers: { 'Access-Control-Allow-Origin': env.ORIGIN || '*' }
+				headers: { 'Access-Control-Allow-Origin': getAllowedOrigin() }
 			});
 
 		} catch (error) {
 			console.error('Error processing contact form:', error);
 			return new Response('system error sending email', { 
 				status: 500,
-				headers: { 'Access-Control-Allow-Origin': env.ORIGIN || '*' }
+				headers: { 'Access-Control-Allow-Origin': getAllowedOrigin() }
 			});
 		}
 	},

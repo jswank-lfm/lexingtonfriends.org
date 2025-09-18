@@ -11,7 +11,7 @@
 		"enabled": true
 	},
 	"vars": {
-		"ORIGIN": "https://stage.lexingtonfriends.org",
+		"ORIGIN": "https://lexingtonfriends.org,https://stage.lexingtonfriends.org",
 		"MAIL_FROM": "noreply@lexingtonfriends.org",
 		"MAIL_TO": "info@lexingtonfriends.org",
 		"MAIL_SUBJECT_PREFIX": "[LFM Contact Form] "
