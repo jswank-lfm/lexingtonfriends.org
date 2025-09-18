@@ -1,0 +1,30 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "contactform",
+	"main": "src/index.js",
+	"compatibility_date": "2025-09-17",
+	"observability": {
+		"enabled": true
+	},
+	"vars": {
+		"ORIGIN": "https://stage.lexingtonfriends.org",
+		"MAIL_FROM": "noreply@lexingtonfriends.org",
+		"MAIL_TO": "info@lexingtonfriends.org",
+		"MAIL_SUBJECT_PREFIX": "[LFM Contact Form] "
+	}
+	/**
+	 * Secrets (set via wrangler secret put):
+	 * - RECAPTCHA_KEY: Google reCAPTCHA secret key
+	 * - MAILJET_API_KEY: Mailjet API key
+	 * - MAILJET_API_SECRET: Mailjet API secret
+	 *
+	 * To set secrets, run:
+	 * wrangler secret put RECAPTCHA_KEY
+	 * wrangler secret put MAILJET_API_KEY
+	 * wrangler secret put MAILJET_API_SECRET
+	 */
+}
