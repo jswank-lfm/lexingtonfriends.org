@@ -7,7 +7,7 @@ cost: Free
 address: 649 Price Ave
 ---
 
-![performance image](mpower-live.jpg)
+![performance image](mpower-live.jpg#event)
 
 Join M'Power Rhythm, the youth African drumming and performance collective, for
 a preview performance of their new school assembly program.
