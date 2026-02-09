@@ -9,12 +9,15 @@ address: 649 Price Ave
 
 ![performance image](mpower-live.jpg#event)
 
-Join M'Power Rhythm, the youth African drumming and performance collective, for
-a preview performance of their new school assembly program.
+Join [M'Power Rhythm](https://mpowerrhythm.org), the youth African drumming and
+performance collective, for a preview performance of their new school assembly
+program.
 
-Building on their success in 2025, including the [African Seeds::Bluegrass
-Roots](https://mpowerrhythm.org/250lex/) performances for 250Lex, M'Power
-Rhythm has developed a new, 45 minute program for school audiences.
+M’Power Rhythm exists to bring people together through rhythm, culture and
+community. Building on their success in 2025, including the [African
+Seeds::Bluegrass Roots](https://mpowerrhythm.org/250lex/) performances for
+250Lex, M'Power Rhythm has developed a new, 45 minute program for school
+audiences.
 
 Following the performance, stay for light refreshments and conversation.
 
