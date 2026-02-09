@@ -16,8 +16,7 @@ program.
 M’Power Rhythm exists to bring people together through rhythm, culture and
 community. Building on their success in 2025, including the [African
 Seeds::Bluegrass Roots](https://mpowerrhythm.org/250lex/) performances for
-250Lex, M'Power Rhythm has developed a new, 45 minute program for school
-audiences.
+250Lex, they have developed a new, 45 minute program for school audiences.
 
 Following the performance, stay for light refreshments and conversation.
 
